@@ -1,11 +1,14 @@
 [project]
-name = "llm"
+name = "llm-study"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "dotenv>=0.9.9",
+    "gradio>=6.9.0",
+    "langchain>=1.2.12",
+    "langchain-community>=0.4.1",
     "langchain-core>=1.2.18",
     "langchain-openai>=1.1.11",
     "notebook>=7.5.4",
