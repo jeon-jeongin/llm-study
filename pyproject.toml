@@ -7,6 +7,7 @@ requires-python = ">=3.10"
 dependencies = [
     "dotenv>=0.9.9",
     "faiss-cpu>=1.13.2",
+    "finance-datareader>=0.9.110",
     "gradio>=6.9.0",
     "langchain>=1.2.12",
     "langchain-classic>=1.0.2",
